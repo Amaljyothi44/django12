@@ -73,16 +73,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-CORS_ALLOW_HEADERS = [
-    'accept',
-    'accept-encoding',
-    'authorization',
-    'content-type',
-    'dnt',
-    'origin',
-    'user-agent',
-    'x-csrf-token',  # Add 'x-csrf-token' to the list of allowed headers
-]
+
 
 
 # MIDDLEWARE = [
@@ -186,3 +177,13 @@ CORS_ORIGIN_WHITELIST = [
     'https://amaljyothi444.pythonanywhere.com/'
 ]
 
+CORS_ALLOW_HEADERS = [
+    'x-csrf-token',
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent'
+]
