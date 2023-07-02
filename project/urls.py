@@ -8,3 +8,4 @@ urlpatterns = [
     path('api/', include('myapp.urls')),
     path('api/', include('notes.urls')),
 ]
+
