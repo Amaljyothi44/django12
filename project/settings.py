@@ -182,6 +182,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000',  # Replace with your actual frontend origin
+    'http://localhost:3000',
+    'https://amaljyothi444.pythonanywhere.com/'
 ]
 
